@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+
+# environment variables
+.env
+config.env
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# uploads directory (except README)
+/uploads/*
+!/uploads/README.md
+!/uploads/profiles/
+/uploads/profiles/*
